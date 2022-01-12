@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #607d8b;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.button:hover{
+    background-color: #758b96;
+}
+
+.button:active{
+	background-color: #85979e;
+}
+
+.textview{
+    text-align: right;
+    height: 45px;
+    width: 217px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    columns: #607d8b;
+    outline: none;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg{
+    background: linear-gradient(to right, #e91e63, blue);
+    height: 100vh;
+}
